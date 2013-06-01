@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Whitman::VERSION
   spec.authors       = ["Matt Larner"]
   spec.email         = ["mrlarner@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{Like lipsum, but Whitman}
+  spec.summary       = %q{Returns dummy text using Leaves of Grass by Walkt Whitman}
   spec.homepage      = ""
   spec.license       = "MIT"
 
