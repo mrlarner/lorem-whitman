@@ -9,12 +9,12 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Matt Larner"]
   spec.email         = ["mrlarner@gmail.com"]
   spec.description   = %q{Like lipsum, but Whitman}
-  spec.summary       = %q{Returns dummy text using Leaves of Grass by Walkt Whitman}
-  spec.homepage      = ""
+  spec.summary       = %q{Returns dummy text using Leaves of Grass by Walk Whitman}
+  spec.homepage      = "http://www.mrlarner.com/"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
-  spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
+  spec.executables   = ['whitman'] #spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
