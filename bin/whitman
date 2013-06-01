@@ -16,7 +16,9 @@ elsif which.start_with? "multitude"
 	puts Whitman::Sentence.sentences(-1).join("\n") #.chomp(";").chomp(",") + "."
 elsif which.start_with? "paragraph"
 	puts Whitman::Paragraph.paragraphs(count)
-elsif which.starts_with? "verse" or which.starts_with? "word" or which.start_with? "yawp"
+elsif which.start_with? "word"
+	puts Whitman::Word.words(count)
+elsif which.starts_with? "verse" or which.start_with? "yawp"
 	puts "Check back later..."
 else
 	puts "I contain 'multitudes' and piles of 'yawps', but not '#{which}'..."
