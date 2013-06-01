@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'whitman'
+
+puts Whitman::Sentence.sentences(5).join(" ").chomp(",") + "."
