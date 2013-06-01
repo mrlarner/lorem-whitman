@@ -2,4 +2,11 @@
 
 require 'whitman'
 
-puts Whitman::Sentence.sentences(5).join(" ").chomp(",") + "."
+count = ARGV.length > 0 ? ARGV[0].to_i : nil
+which = ARGV[1].downcase if ARGV.length > 1
+
+if which.nil? or which.start_with? "sentence"
+	puts Whitman::Sentence.sentences(count).join(" ").chomp(",") + "."
+else
+	puts "I contain 'multitudes' and piles of 'yawps', but not '#{which}'..."
+end
