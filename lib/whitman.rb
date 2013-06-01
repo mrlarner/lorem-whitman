@@ -1,5 +1,4 @@
 require "whitman/version"
+require "whitman/base"
+require "whitman/sentence"
 
-module Whitman
-  # Your code goes here...
-end
