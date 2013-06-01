@@ -1,4 +1,5 @@
 require "whitman/version"
 require "whitman/base"
 require "whitman/sentence"
+require "whitman/word"
 require "whitman/paragraph"
