@@ -6,19 +6,21 @@ Like lipsum, but Whitman.
 
 Add this line to your application's Gemfile:
 
-    gem 'whitman'
+    gem 'whitman', :git => 'https://github.com/mrlarner/lorem-whitman.git'
 
 And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install whitman
-
 ## Usage
 
-TODO: Write usage instructions here
+For now, it only returns 5 sentences from "Song of Myself". More later.
+
+    $ bundle exec whitman
+
+To copy to clipboard
+
+    $ bundle exec whitman | pbcopy
 
 ## Contributing
 
