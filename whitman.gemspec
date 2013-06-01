@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Matt Larner"]
   spec.email         = ["mrlarner@gmail.com"]
   spec.description   = %q{Like lipsum, but Whitman}
-  spec.summary       = %q{Returns dummy text using Leaves of Grass by Walk Whitman}
+  spec.summary       = %q{Returns dummy text using Leaves of Grass by Walt Whitman}
   spec.homepage      = "http://www.mrlarner.com/"
   spec.license       = "MIT"
 
