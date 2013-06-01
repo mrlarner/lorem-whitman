@@ -2,7 +2,7 @@
 
 ![Walter](http://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Walt_Whitman_edit_2.jpg/388px-Walt_Whitman_edit_2.jpg)
 
-Greek is cool and all, but "Walt's":http://en.wikipedia.org/wiki/Walt_whitman got mad styles.
+Greek is cool and all, but [Walt's](http://en.wikipedia.org/wiki/Walt_whitman) got mad styles.
 
 Like lipsum et al, but Whitman.
 
