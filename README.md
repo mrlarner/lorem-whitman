@@ -1,6 +1,6 @@
 # Whitman
 
-TODO: Write a gem description
+Like lipsum, but Whitman.
 
 ## Installation
 
